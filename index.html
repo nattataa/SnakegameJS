@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>SNAKE</h1>
+    <!-- The start screen with a start button-->
+    <div id="start">
+        <button id="startButton" onclick="startGame()">Start Game</button>
+    </div>
+    <!-- The game over screen with a restart button -->
+    <div id="restart">    
+        <button id="restartButton" onclick="restart()">Restart</button>
+    </div>
+    <!-- To create a game canvas and use Canvas API for the game -->
+    <canvas id="gameCanvas"></canvas>
+    <span id="points">0</span>
+    <!-- Modal box for the credits -->
+    <button id="credits">Credits</button>
+    <dialog class="modal" id="modal">
+        <h2>Credits</h2>
+        <p>Background by <a href="https://ansimuz.com/site"/>ansimuz</a></p>
+        <p>Font by <a href="https://freefontsdownload.net/free-thaleahfat-font-169300.htm">Rick Hoppmann</a></p>
+        <p>Sound effects by <a href="https://wobbleboxx.com/">wobbleboxx.com</a></p>
+        <button id="close">Close</button>
+    </dialog>
+    <h3>Coded by&nbsp<a href="https://github.com/nattataa">nattataa</a></h3>
+</body>
+</html>

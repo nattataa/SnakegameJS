@@ -1,0 +1,120 @@
+@font-face{
+    font-family: "Thaleah";
+    src:url(ThaleahFat.ttf) format("truetype");
+}
+
+h1 {
+    font-family: Thaleah;
+    text-shadow: 2px 2px #ffff;
+    font-size: 4vw;
+}
+
+h2 {
+    font-family: system-ui;
+}
+
+p {
+    font-family: system-ui;
+}
+
+h3 {
+    font-family: Thaleah;
+    text-align: center;
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 1.5vw;
+}
+
+#credits {
+    font-family:"Thaleah";
+    font-size: 1.5vw;
+    background-color: DeepPink;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+a {
+    color: DeepPink;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(skyline-a.png);
+    background-size: 50vmin, 50vmin;
+    align-items: center;
+}
+
+canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#gameCanvas{
+    display:none;
+}
+
+#points {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 2vw;
+    font-family: "Thaleah";
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+}
+
+#start{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#startButton, #restartButton {
+    font-family:"Thaleah";
+    font-size: 2.5vw;
+    background-color: DeepPink;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+
+#restart {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.modal::backdrop {
+    background: linear-gradient(45deg, red, blue);
+    opacity: 0.4;
+  }
+
+#close {
+    font-family:"Thaleah";
+    background-color: DeepPink;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+  
