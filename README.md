@@ -9,7 +9,7 @@ You can play it on https://snakejsnattataa.netlify.app/ !
 You use the arrows keys to move the snake and the goal is to get many fruits without colliding in the walls or the snake's own tail. 
 
 ## Credits
-Since I didn't have any experience with HTML Canvas before, I took some help from Kenny Yip Coding's [tutorial](https://www.youtube.com/watch?v=baBq5GAL0_U). 
+Since I didn't have any experience with HTML Canvas before, I took some help from Kenny Yip Coding's [tutorial](https://www.youtube.com/watch?v=baBq5GAL0_U). I also used Kevin Powell's [video](https://www.youtube.com/watch?v=TAB_v6yBXIE) on how to make a popup modal. 
 
 - Background by [ansimuz](http://ansimuz.com/site/)
 - Font by [Rick Hoppmann](https://www.tinyworlds.org/)
