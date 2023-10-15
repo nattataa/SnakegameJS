@@ -5,7 +5,7 @@ This is my first project using Javascript, CSS and HTML Canvas where I recreated
 There is a problem with the snake bypassing the boundaries when you move it quickly in a certain way and there is also an animation delay on the snake when it is game over.
 
 ## How to play the game
-You can play it on https://snakejsnattataa.netlify.app/ !
+You can play it on https://snakejsnfalck.netlify.app/!
 You use the arrows keys to move the snake and the goal is to get many fruits without colliding in the walls or the snake's own tail. 
 
 ## Credits
